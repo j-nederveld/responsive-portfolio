@@ -19,7 +19,11 @@ body {
 }
 
 .container {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-content {
+    margin-bottom: 15rem;
 }
 
 .font-40 {
@@ -38,6 +42,7 @@ footer {
     left: 0;
     right: 0;
     bottom: 0;
+    border-top: 5px solid #e9ecef !important;
 }
 }
 
