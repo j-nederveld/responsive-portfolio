@@ -1,13 +1,26 @@
 body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/cork-board.png");
 }
-
+.jumbotron {
+    background-color: #343a40;
+    color: #e9ecef;
+    border-top: 1px solid #e9ecef;
+}
 .jumbotron .jumbotron-fluid {
     margin: 0 auto;
+    background-color: #343a40;
+   
+}
+
+.contact {
+    background: #e9ecef;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
  .navbar-brand, .nav-link {
-    color: #f5f5f5 !important;
+    color: #e9ecef !important;
 }
 
 .row .margin0 {
@@ -49,7 +62,7 @@ body {
 }
 
 .tile {
-    background-color: teal;
+    background-color: #e9ecef;
     opacity: .99;
     border-radius: 5px;
     padding: 15px;
@@ -58,6 +71,7 @@ body {
 
 #pfp {
     max-width: 100%;
+    border-radius: 5px;
 }
 
 #arrow {
