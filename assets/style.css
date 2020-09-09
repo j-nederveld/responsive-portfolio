@@ -8,12 +8,12 @@ body {
 }
 
 .jumbotron .jumbotron-fluid {
-    margin: 0 auto;
+    margin: 0;
     background-color: #343a40;
    
 }
 .container {
-    padding-bottom: 50px;
+    padding-bottom: 2rem;
 }
 .contact {
     background: #e9ecef;
@@ -104,5 +104,16 @@ body {
 @media (max-width:576px) {
     .row {
         margin: 0 auto;
+    }
+    .container {
+       
+       
+    }
+
+    .paddingTop-xs {
+        padding-top: 2rem;
+        padding-left: 0px;
+        padding-right: 0px;
+
     }
 }
