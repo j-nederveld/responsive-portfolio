@@ -6,12 +6,15 @@ body {
     color: #e9ecef;
     border-top: 1px solid #e9ecef;
 }
+
 .jumbotron .jumbotron-fluid {
     margin: 0 auto;
     background-color: #343a40;
    
 }
-
+.container {
+    padding-bottom: 50px;
+}
 .contact {
     background: #e9ecef;
     padding: 15px;
@@ -82,9 +85,17 @@ body {
 }
 
 @media (max-width:991px) {
-    #arrow {
-    display: none;
-}
+    .nav-item {
+        border: 1px solid #e9ecef;
+        padding: 10px;
+        width: 100%;
+    }
+    .navbar {
+        padding: 0px;
+    }
+    .navbar-brand {
+        padding: 10px;
+    }
 }
 
 @media (max-width:576px) {
