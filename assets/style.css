@@ -34,6 +34,11 @@ body {
 footer {
     background-color: #343a40;
     color: #e9ecef;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
 }
 
 .formInput {
