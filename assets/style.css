@@ -86,7 +86,7 @@ body {
 
 @media (max-width:991px) {
     .nav-item {
-        border: 1px solid #e9ecef;
+        border-bottom: 1px solid #e9ecef;
         padding: 10px;
         width: 100%;
     }
