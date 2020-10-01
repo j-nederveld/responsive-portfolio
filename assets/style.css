@@ -73,8 +73,10 @@ footer {
     background-color: #343a40;
     color: #e9ecef;
     border-top: 1px solid #e9ecef;
+}
 
-
+a.hoverDark:hover {
+    color: #343a40;
 }
 
 .jumbotron .jumbotron-fluid {
